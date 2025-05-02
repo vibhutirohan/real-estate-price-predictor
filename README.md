@@ -33,20 +33,10 @@ This is an advanced real estate analytics web application that predicts house pr
 
 ---
 
-## 💻 Demo
-
-▶️ Live: [Streamlit App](https://real-estate-price-predictor.streamlit.app)  
 📦 Repo: [GitHub](https://github.com/vibhutirohan/real-estate-price-predictor)
 
 ---
 
-## 📷 Screenshots
-
-| Prediction Page | Market Analytics | Explore City |
-|------------------|------------------|----------------|
-| ![](screenshots/predict.png) | ![](screenshots/analytics.png) | ![](screenshots/explore.png) |
-
----
 
 ## 📄 Getting Started (Local Setup)
 
