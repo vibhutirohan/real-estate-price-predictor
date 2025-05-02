@@ -1,37 +1,57 @@
-# 🏡 Smart Real Estate Price Predictor
+# 🏡 Real Estate Price Predictor
 
-A full-featured, AI-powered real estate analysis and prediction app built with **Streamlit**, **Machine Learning**, and multiple real-time APIs.
+This is an advanced real estate analytics web application that predicts house prices using machine learning and provides rich insights like market trends, investment ROI, EMI calculators, weather, job market snapshots, and more — all in a visually interactive interface.
 
-> 🔮 Predict house prices, explore cities, check investment scores, analyze job markets, news trends, and even generate professional PDF reports — all in one place!
-
----
-
-## 📌 Features
-
-- 🔍 **Price Prediction** using ML models (XGBoost, Random Forest, Linear Regression)
-- 🧠 **Investment Score & ROI Calculator**
-- 📊 **Analytics Dashboard** with comparison charts and trend lines
-- 🏙️ **City Explorer** – weather, jobs, cost of living, rental yield, crime stats, events
-- 🗞️ **Real Estate News** filtered by region, time, and category
-- 📄 **PDF Report Generator** with graphs and loan details
-- 📥 Downloadable insights & predictions
-- 💬 Community Chat Simulation *(Coming Soon)*
+> 🔍 Built to assist home buyers, investors, and real estate analysts make smarter decisions.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Key Features
 
-- `Python`, `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`
-- `Streamlit` for frontend UI
-- `scikit-learn`, `XGBoost`, `joblib` for ML modeling
-- `FPDF` for PDF reports
-- `OpenWeather`, `GNews`, `Ticketmaster`, and custom APIs for live data
+- 🧠 **Machine Learning Models** – XGBoost, Random Forest, and Linear Regression
+- 📍 **City Snapshot** – Real-time map view, pricing, trends, popularity score
+- 📊 **Market Analytics** – Prediction vs average comparison, multi-model outputs
+- 💡 **AI-powered Suggestions** – Dynamic insights based on selected cities
+- 📰 **Real Estate News** – Country-filtered, category-based interactive feed
+- 📈 **ROI & Loan Calculator** – Estimate returns, EMI breakdown, generate PDF
+- ☁️ **Live Weather API** – Get current weather for any selected city
+- 💼 **Job Market View** – Understand employment opportunities in each region
+- 🎉 **Community Tab & Listings** – Simulated property listings and chat
+- 🌐 Hosted on **Streamlit Cloud** and fully open-source
 
 ---
 
-## 🚀 Getting Started Locally
+## 🧠 Tech Stack
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/vibhutirohan/real-estate-price-predictor.git
-   cd real-estate-price-predictor
+- **Frontend**: `Streamlit`, `Matplotlib`, `Seaborn`
+- **Backend**: `Scikit-learn`, `XGBoost`, `Pandas`, `Joblib`
+- **APIs Used**:  
+  - OpenWeather API  
+  - GNews API  
+  - Ticketmaster Events API  
+  - Dummy Job Listings & Property Listings (JSON)
+
+---
+
+## 💻 Demo
+
+▶️ Live: [Streamlit App](https://real-estate-price-predictor.streamlit.app)  
+📦 Repo: [GitHub](https://github.com/vibhutirohan/real-estate-price-predictor)
+
+---
+
+## 📷 Screenshots
+
+| Prediction Page | Market Analytics | Explore City |
+|------------------|------------------|----------------|
+| ![](screenshots/predict.png) | ![](screenshots/analytics.png) | ![](screenshots/explore.png) |
+
+---
+
+## 📄 Getting Started (Local Setup)
+
+```bash
+git clone https://github.com/vibhutirohan/real-estate-price-predictor.git
+cd real-estate-price-predictor
+pip install -r requirements.txt
+streamlit run app.py
